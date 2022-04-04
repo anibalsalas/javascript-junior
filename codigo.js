@@ -284,9 +284,9 @@
 // document.write("fin")
 // //muestra: 12345678910fin
 
-for (let i = 0; i < 6; i++){//declaracion e inicializaciòn;condicion; aumento o decremento
-    document.write(i + "<br>")
-}
+// for (let i = 0; i < 6; i++){//declaracion e inicializaciòn;condicion; aumento o decremento
+//     document.write(i + "<br>")
+// }
 //muestra:
 // 0
 // 1
@@ -295,3 +295,44 @@ for (let i = 0; i < 6; i++){//declaracion e inicializaciòn;condicion; aumento o
 // 4
 // 5
 ///////////////////////////////////////////
+
+// let a = 100;
+// let b = 40;
+
+// let suma = a + b
+// console.log("La suma es igual a " + suma)
+
+let saludo ="hola ";
+let presentacion = "Soy Anival";
+
+// console.log(saludo + presentacion)
+// let a = "10";
+// let b = 2
+// console.log(a + b)
+// console.log(a - b)
+//Template String, Template literal
+//${aqui podemos poner codigo javascript}
+// let edad = 34;
+// //Backticks
+// let oracion = `Buenas noches ${presentacion}, mucho gusto, tengo ${edad} años`;
+// console.log(oracion);
+
+// let cantidadmascotas = prompt("Hola cuantas mascotas tienes");
+// console.log(`Mascotas : ${cantidadmascotas}`);
+
+// //typeof me muestra el tipo de dato de algo
+// console.log(typeof cantidadmascotas);
+
+// let convertido = parseInt(cantidadmascotas);
+// console.log(convertido);
+// console.log(typeof convertido);
+//programe un algoritmo que calcule el àrea de un
+//triangulo, considera las variables necesarias y muestre el resultado
+let base = prompt("Esribe la base");
+let altura = prompt("Esribe la altura");
+
+let ba = parseFloat(base);
+let al = parseFloat(altura);
+
+let area = (ba * al )/2;
+console.log(area);
