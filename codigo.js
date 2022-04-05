@@ -302,8 +302,8 @@
 // let suma = a + b
 // console.log("La suma es igual a " + suma)
 
-let saludo ="hola ";
-let presentacion = "Soy Anival";
+// let saludo ="hola ";
+// let presentacion = "Soy Anival";
 
 // console.log(saludo + presentacion)
 // let a = "10";
@@ -328,11 +328,102 @@ let presentacion = "Soy Anival";
 // console.log(typeof convertido);
 //programe un algoritmo que calcule el àrea de un
 //triangulo, considera las variables necesarias y muestre el resultado
-let base = prompt("Esribe la base");
-let altura = prompt("Esribe la altura");
+// let base = prompt("Esribe la base");
+// let altura = prompt("Esribe la altura");
 
-let ba = parseFloat(base);
-let al = parseFloat(altura);
+// let ba = parseFloat(base);
+// let al = parseFloat(altura);
 
-let area = (ba * al )/2;
-console.log(area);
+// let area = (ba * al )/2;
+// console.log(area);
+//  
+
+//que datos necesito
+//como obtengo esos datos
+//esos datos estan en el formato que necesito?
+
+// let base = +prompt("Cuanto es la base");
+// let altura =  +prompt("cuanto es la altura");
+// console.log(typeof base)
+// let areatri =(base * altura)/2;
+// console.log(areatri);
+// let numero = 10 //variable numero ambito global, lo puedo referenciar desde cuaquier parte
+// function calcularAreaTriangulo(base, altura){
+//     //variable area ,ambito local, solo existe dentro de éstas llaves dentro de la funcion
+//     let area = (base * altura) / numero;
+//     return area // es el resultado devuelto
+// }
+
+// let resultado = calcularAreaTriangulo (10,15);
+// console.log(resultado);
+
+// let resultado2 = calcularAreaTriangulo (100,15);
+// console.log(resultado2);
+// //una funcion no es obligatorio que reciba parametros
+// //tampoco es obligatorio que retorne algo
+// function saludar() {
+//     console.log("Hola");
+// }
+// saludar()
+
+// let edad = +prompt("Cual es tu edad?");//+ convierte a numero
+
+// //if (condition){instrucciones}
+// /*
+// if (edad >= 18) {
+//     console.log("Puedes comprar tu entrada");
+// }else{
+//     //en caso no se cumpla la condicional, se ejecutara este bloque de codigo
+//     console.log("No, puedes entrar");
+// }
+// */
+// if (edad >= 40){
+//     console.log("3 dosis o fuera!");
+// }    else if (edad >= 18){
+//     console.log("2 dosis o fuera!");
+// }   else if (edad >= 5){
+//     console.log("Es recomendable que tenga 2 dosis");
+// }else{
+//     console.log("debe ser un bb pasa nomas");
+// }
+/*
+let edad = +prompt("Cual es tu edad?");//+ convierte a numero
+
+if (edad >= 70) {
+    console.log("Haz un chequeo general");
+}else if (edad <= 69 && edad >= 40){
+    console.log("Anda al cardiolo,urologo y traumatologo");
+}else if(edad <= 39 && edad >= 18){
+    console.log("Visita  a un psicologo");
+}else if(edad === 15 || edad === 12){ // || significa or
+console.log("Visita infectologo");
+}else{
+    console.log("No necesitas chequeos");
+}
+*/
+// let numero = 19;
+// // !== diferente de
+// if (numero !== 20){
+//     console.log("No es excelente");
+// }
+
+
+// let numeroMes = +prompt("Ingrese el nùmero del mes");
+
+// switch(numeroMes){
+//     case 1:
+//         console.log("Enero");
+//         break;
+//     case 2:
+//         console.log("Febrero");
+//         break;
+//     case 3:
+//         console.log("Marzo");
+//         break;
+//     case 4:
+//         console.log("Abril");
+//         break;
+//     default:
+//         console.log("Mes no encontrado");
+// }
+
