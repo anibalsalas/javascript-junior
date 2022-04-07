@@ -426,4 +426,33 @@ console.log("Visita infectologo");
 //     default:
 //         console.log("Mes no encontrado");
 // }
+//let contador = 1;
+// while(contador <= 15){
+//     console.log(contador <= 15);
+//     console.log(contador);
+//     contador =contador + 1;
+// }
+// do while: se puede usar para por ejemplo( mostrar una ventana login y luego preguntar si esta logueado)
+//Muestra la interfas y luego pregunta 
+//no se usan tanto
+// do{
+//     console.log(`El contador es $(contador)`);
+//     contador = contador + 1;
+// } while (contador <= 0);
 
+//for (let cont = 0; cont <= 10; ++cont){
+// for (let cont = 0; cont <= 10; cont += 2){
+//     console.log(`el contador es${cont}`);
+// }
+//let contador = 1;
+//UN CHICO ESTÁ AHORRANDO SUS PROPINAS PARA COMPRARSE UNA PS5,
+//CADA MES EL CHICO RECIBIRÁ UNA PROPINA DIFERENTE,PREGUNTAR
+let costops5 = 3000;
+let ahorro = 0;
+let propina = 0;
+for (ahorro = 5; ahorro <= 3000; ahorro = ahorro + propina){
+    propina = Number(prompt("Ingrese la propina"));//number comvierte a numero
+    console.log("PROPINA", propina);
+    console.log("AHORRO", ahorro + propina);
+}
+console.log("estoy depsues del for");
